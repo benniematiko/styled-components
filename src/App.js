@@ -1,6 +1,7 @@
 import { GlobalStyles } from "./components/styles/Globals.styled";
 import { ThemeProvider } from "styled-components";
 import "./App.css";
+import NavBar from "./layout/NavBar";
 
 function App() {
   const theme = {
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
       <GlobalStyles />
 
-      <h1> Komotobo School</h1>
+      <NavBar />
     </div>
   );
 }

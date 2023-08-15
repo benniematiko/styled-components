@@ -5,3 +5,8 @@ export const Nav = styled.nav`
   padding: 0 20px;
   background: red;
 `;
+
+export const Logo = styled.div`
+  width: 200px;
+  background: red;
+`;
